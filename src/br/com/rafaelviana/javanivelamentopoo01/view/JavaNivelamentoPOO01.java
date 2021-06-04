@@ -14,7 +14,8 @@ public class JavaNivelamentoPOO01 {
         objeto.setTelefone("(11)371945012");
         objeto.setEmail("rafaelsilvio497@yahoo.com");
         
-        System.out.println("Nome:"+objeto.getNome());
+        System.out.println(objeto.falarIdioma());
+        
         System.out.println("Telefone:"+objeto.getTelefone());
         System.out.println("Email:"+objeto.getEmail());
         
