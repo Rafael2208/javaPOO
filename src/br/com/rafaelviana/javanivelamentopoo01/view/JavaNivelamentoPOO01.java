@@ -17,6 +17,14 @@ public class JavaNivelamentoPOO01 {
         System.out.println("Email:"+objeto.getEmail());
         
         
+        Pessoa neia = new Pessoa ();
+        neia.setNome("Neia");
+        neia.setTelefone("(11)981911012");
+        neia.setEmail("neia.neia2@yahoo.com.br");
+        
+        System.out.println("Nome:"+neia.getNome());
+        System.out.println("Telefone:"+neia.getTelefone());
+        System.out.println("Email:"+neia.getEmail());
     }
     
 }
