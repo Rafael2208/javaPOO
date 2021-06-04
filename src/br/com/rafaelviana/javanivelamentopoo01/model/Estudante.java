@@ -6,6 +6,11 @@ public class Estudante extends Pessoa {
     private int ra;
     private String curso;
 
+    @Override
+    public String toString() {
+        return getCurso (); 
+    }
+
     
     public int getRa() {
         return ra;
