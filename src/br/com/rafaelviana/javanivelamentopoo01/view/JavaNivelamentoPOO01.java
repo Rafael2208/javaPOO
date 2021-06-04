@@ -31,6 +31,7 @@ public class JavaNivelamentoPOO01 {
         System.out.println("*****************************************");
         Estudante estudante = new Estudante ();
         estudante.setNome("Maria");
+        estudante.setCurso("Geografia");
         estudante.setRa(123);
         
         System.out.println("Nome:"+estudante.getNome());
