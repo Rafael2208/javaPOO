@@ -35,6 +35,7 @@ public class JavaNivelamentoPOO01 {
         
         System.out.println("Nome:"+estudante.getNome());
         System.out.println("RA:"+estudante.getRa());
+        System.out.println("toString:"+estudante.toString());
         
         System.out.println("*****************************************");
         Professor professor = new Professor ();
