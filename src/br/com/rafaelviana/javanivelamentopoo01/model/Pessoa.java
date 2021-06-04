@@ -1,7 +1,7 @@
 
 package br.com.rafaelviana.javanivelamentopoo01.model;
 
-public class Pessoa {
+public class Pessoa implements Habilidade {
     private String nome;
     private String telefone;
     private String email;
@@ -34,6 +34,11 @@ public class Pessoa {
     
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String falarIdioma() {
+        return "Meu nome é:"+getNome()+"Eu sei falar minha lingua materna.";
     }
     
     
