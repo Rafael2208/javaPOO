@@ -7,6 +7,15 @@ public class Estudante extends Pessoa {
     private String curso;
 
     @Override
+    public String falarIdioma() {
+        return "tudo bem,excelente";
+    }
+    
+    
+
+    
+    
+    @Override
     public String toString() {
         return getCurso (); 
     }
