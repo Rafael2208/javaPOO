@@ -11,8 +11,8 @@ public class JavaNivelamentoPOO01 {
     public static void main(String[] args) {
         Pessoa objeto = new Pessoa ();
         objeto.setNome("Rafael");
-        objeto.setTelefone("(11)981911012");
-        objeto.setEmail("rafaelviana544@yahoo.com");
+        objeto.setTelefone("(11)371945012");
+        objeto.setEmail("rafaelsilvio497@yahoo.com");
         
         System.out.println("Nome:"+objeto.getNome());
         System.out.println("Telefone:"+objeto.getTelefone());
@@ -21,8 +21,8 @@ public class JavaNivelamentoPOO01 {
         System.out.println("*****************************************");
         Pessoa neia = new Pessoa ();
         neia.setNome("Neia");
-        neia.setTelefone("(11)981911012");
-        neia.setEmail("neia.neia2@yahoo.com.br");
+        neia.setTelefone("(11)351935012");
+        neia.setEmail("neia.neves7@yahoo.com");
         
         System.out.println("Nome:"+neia.getNome());
         System.out.println("Telefone:"+neia.getTelefone());
