@@ -38,7 +38,7 @@ public class Pessoa implements Habilidade {
 
     @Override
     public String falarIdioma() {
-        return "Meu nome é:"+getNome()+"Eu sei falar minha lingua materna.";
+        return "Meu nome é:"+getNome()+" eu sei falar minha lingua materna.";
     }
     
     
