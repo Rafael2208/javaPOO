@@ -42,10 +42,10 @@ public class JavaNivelamentoPOO01 {
        professor.setTitulo("Desenvolvedor");
        
        
-        System.out.println("toString:"+professor.toString());
+        
         System.out.println("Nome:"+professor.getNome());
         System.out.println("Titulo:"+professor.getTitulo());
-        
+        System.out.println("toString:"+professor.toString());
         
     }
     
