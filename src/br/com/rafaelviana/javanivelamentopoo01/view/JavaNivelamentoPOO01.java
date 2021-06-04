@@ -38,6 +38,7 @@ public class JavaNivelamentoPOO01 {
         System.out.println("Nome:"+estudante.getNome());
         System.out.println("RA:"+estudante.getRa());
         System.out.println("Matéria:"+estudante.toString());
+        System.out.println(estudante.falarIdioma());
         
         System.out.println("*****************************************");
         Professor professor = new Professor ();
@@ -49,6 +50,7 @@ public class JavaNivelamentoPOO01 {
         System.out.println("Nome:"+professor.getNome());
         System.out.println("Titulo:"+professor.getTitulo());
         System.out.println("Profissão:"+professor.toString());
+        System.out.println(professor.falarIdioma());
        
     }
     
